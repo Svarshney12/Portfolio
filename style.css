@@ -254,6 +254,126 @@
     font-weight: 600;
     line-height: 1.7;
   }
+  /* .projects{
+    background: url(background.jpg)center no-repeat;
+    background-size: cover;
+    background-color: var(--second-bg-color);
+  }
+  .projects-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin: 5rem 0;
+    gap: 3rem;
+    row-gap: 5rem;
+  }
+  .projects-card{
+    height: 600px;
+    max-width: 450px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(30px);
+    border:2px solid var(--main-color);
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: 0.4s ease;
+  }
+  .projects-card:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+    transform: scale(1.02);
+  }
+  .projects-card img{
+    max-width: 18vw;
+    object-fit: cover;
+  }
+  .projects-card h3{
+    font-size: 3rem;
+  }
+  .projects-card p{
+    font-size: 3rem;
+  } */
+
+  
+  .projects h2{
+    color: var(--text-color);
+  }
+  .projects-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .project-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 600px;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: 0.4s ease-in-out;
+  }
+  .project-box:hover{
+    background-color: var(--second-bg-color);
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+  }
+  .project-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+  }
+  .project-info i{
+    font-size: 8rem;
+  }
+  .project-info h4{
+    font-size: 4rem;
+    margin: 2rem 0;
+    font-weight: 800;
+  }
+  .project-info img{
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.4s ease-in-out;
+  }
+  .project-info h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+    font-weight: 800;
+  }
+  .project-info p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7;
+  }
+  .project-info .btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: var(--text-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+  }
   .contact{
     background-color: var(--second-bg-color);
   }
